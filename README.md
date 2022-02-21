@@ -22,3 +22,5 @@ pip install https://github.com/pymupdf/PyMuPDF/archive/master.tar.gz
 ## Utilizzo
 Aprire il file PDF e in caso non si voglia aprire la prima pagina, specificare il numero di pagina da visualizzare. Altrimenti sarà possibile navigare con i tasti "<" e ">" tra le pagine.
 Sulla pagina corrente tracciare il rettangolo della zona da cancellare (uno per pagina), poi premere 'Conferma selezione' e passare eventualmente alla pagina successiva. Al termine della selezione di tutte le zone da nascondere, premere 'Applica' e verrà generato un file <nomefile>_redacted.pdf con tutte le correzioni applicate.
+
+![alt text](https://github.com/fla-pi/PDFRedact/blob/main/pdfRedactgif.gif)
